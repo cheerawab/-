@@ -25,5 +25,7 @@ execute if entity @s[x=-24,y=172,z=38,distance=..1] run spawnpoint @s -24 172 38
 execute if entity @s[x=-19,y=179,z=97,distance=..1] run spawnpoint @s -19 179 97 180
 execute if entity @s[x=-9,y=187,z=34,distance=..1] run spawnpoint @s -9 187 34 180
 execute if entity @s[x=-2,y=319,z=6,distance=..1] run spawnpoint @s -2 319 6 90
+execute if entity @s[x=-22,y=-8,z=-32,distance=..1] run spawnpoint @s -22 -8 -32 90
+
 
 advancement revoke @s only game:spawnpoint

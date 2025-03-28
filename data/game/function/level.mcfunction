@@ -25,6 +25,6 @@ execute if entity @s[x=-24,y=172,z=38,distance=..1] run scoreboard players set @
 execute if entity @s[x=-19,y=179,z=97,distance=..1] run scoreboard players set @s level 23
 execute if entity @s[x=-9,y=187,z=34,distance=..1] run scoreboard players set @s level 24
 execute if entity @s[x=-2,y=319,z=6,distance=..1] run scoreboard players set @s level 25
-execute if entity @s[x=0,y=92,z=8,distance=..1] run scoreboard players set @s level 26
+execute if entity @s[x=-22,y=-8,z=-32,distance=..1] run scoreboard players set @s level 26
 
 advancement revoke @s only game:level
