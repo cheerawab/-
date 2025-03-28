@@ -1,0 +1,2 @@
+execute as @s[scores={play=1}] run title @s actionbar ["",{"text":"你目前在第","color":"green"},{"score":{"name":"@s","objective":"level"},"bold":true,"color":"green"},{"text":"關","color":"green"},{"text":"  已經耗費","color":"aqua"},{"score":{"name":"@s","objective":"sec"},"bold":true,"color":"aqua"},{"text":"秒","color":"aqua"},{"text":"  已經死亡","color":"gold"},{"score":{"name":"@s","objective":"die"},"bold":true,"color":"gold"},{"text":"次","color":"gold"}]
+advancement revoke @s only game:info
