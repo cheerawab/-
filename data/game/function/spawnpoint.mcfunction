@@ -1,7 +1,7 @@
 # 從第二個開始
-execute if entity @s[x=0.5,y=92,z=2.5,distance=..1] run spawnpoint @s 0 92 2 0
-execute if entity @s[x=0.5,y=92,z=8.5,distance=..1] run spawnpoint @s 0 92 8 0
-execute if entity @s[x=0.5,y=92,z=18.5,distance=..1] run spawnpoint @s 0 92 18 0
+execute if entity @s[x=0.5,y=92,z=1.5,distance=..1] run spawnpoint @s 0 92 2 0
+execute if entity @s[x=0.5,y=92,z=7.5,distance=..1] run spawnpoint @s 0 92 8 0
+execute if entity @s[x=0.5,y=92,z=19.5,distance=..1] run spawnpoint @s 0 92 18 0
 execute if entity @s[x=0.5,y=92,z=25.5,distance=..1] run spawnpoint @s 0 92 25 0
 execute if entity @s[x=0.5,y=92,z=36.5,distance=..1] run spawnpoint @s 0 92 36 0
 execute if entity @s[x=0.5,y=92,z=53.5,distance=..1] run spawnpoint @s 0 92 53 0
@@ -17,7 +17,7 @@ execute if entity @s[x=0.5,y=125,z=48.5,distance=..1] run spawnpoint @s 0 125 48
 execute if entity @s[x=0.5,y=125,z=36.5,distance=..1] run spawnpoint @s 0 125 36 0
 execute if entity @s[x=-1.5,y=130,z=17.5,distance=..1] run spawnpoint @s -1 130 17 0
 execute if entity @s[x=-8.5,y=132,z=8.5,distance=..1] run spawnpoint @s -8 132 8 90
-execute if entity @s[x=-27.5,y=132,z=8.5,distance=..1] run spawnpoint @s -27 132 8 180
+execute if entity @s[x=-27.5,y=132,z=9.5,distance=..1] run spawnpoint @s -27 132 8 180
 # 21關雙存檔
 execute if entity @s[x=-27.5,y=169,z=76.5,distance=..1] run spawnpoint @s -27 169 76 180
 execute if entity @s[x=-26.5,y=169,z=76.5,distance=..1] run spawnpoint @s -26 169 76 180
@@ -27,5 +27,7 @@ execute if entity @s[x=-9.5,y=187,z=34.5,distance=..1] run spawnpoint @s -9 187 
 execute if entity @s[x=-3.5,y=319,z=6.5,distance=..1] run spawnpoint @s -2 319 6 90
 execute if entity @s[x=-23.5,y=-8,z=-33.5,distance=..1] run spawnpoint @s -22 -8 -32 90
 execute if entity @s[x=-19.5,y=56,z=-33.5,distance=..1] run spawnpoint @s -19 56 -33 270
+execute if entity @s[x=24.5,y=63,z=-46.5,distance=..1] run spawnpoint @s 24 63 -46 90
+execute if entity @s[x=-32.5,y=61,z=-31.5,distance=..1] run spawnpoint @s -32 61 -31 90
 
 advancement revoke @s only game:spawnpoint
